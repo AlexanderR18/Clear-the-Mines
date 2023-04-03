@@ -26,7 +26,7 @@ When shifting up, the bomb (B) marked in red collided and detonated, created two
 
 - When shifting the matrix, all the barrier (X) will be stationary and will not shift.
 - A bomb (B) will stop shifting when it meets a barrier (X).
-- 
+
 Output files
 - Output the sequence of moves that detonate all the bomb and solve the matrix.
 - If there are multiple sequence that solve the matrix (ex: 124, 211, 3214), output the smallest one.
