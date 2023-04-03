@@ -13,7 +13,7 @@
 - Shift down: shift all the elements in the matrix downward (corresponding to 3)
 - Shift left: shift all the elements in the matrix to the left (corresponding to 4)
 - Elements in the matrix will either be ‘O’, ‘X’, or ‘B’.
-- 
+
 - ‘O’ will represent an open path in the matrix.
 - ‘X’ will act as a barrier when shifting the matrix.
 - ‘B’ will represent a bomb that need to be detonate.
@@ -23,17 +23,6 @@ left. Which two bomb collided first will be detonated.
 - The matrix will always have even number of bomb (B).
 - When two bomb detonated, a barrier (X) will be created at the index of detonation
 When shifting up, the bomb (B) marked in red collided and detonated, created two barriers (X).
-O B O O       
-O O B O   
-O B O O
-B B B O
-
-to
-
-B X X O
-O B O O
-O O O O
-O O O O
 
 - When shifting the matrix, all the barrier (X) will be stationary and will not shift.
 - A bomb (B) will stop shifting when it meets a barrier (X).
