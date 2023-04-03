@@ -5,7 +5,7 @@
 - Each element will be separated by a space.
 - There will be no redundant spaces or empty lines.
 - There will be no empty input.
-- 
+
 3. Operations
 - There are four operation that need to be considered when solving the matrix:
 - Shift up: shift all the elements in the matrix upward (corresponding to 1)
