@@ -245,11 +245,11 @@ else if(move == "2")
 
 int main(int argc, char *argv[]) {
   ArgumentManager am(argc, argv);
-  string input = am.get("input");
-  string output = am.get("output");
+  //string input = am.get("input");
+  //string output = am.get("output");
 
-  ifstream in(input);
-  ofstream out(output);
+  ifstream in("input3.txt");
+  ofstream out("output3.txt");
 
   size_t row;
   size_t col;
